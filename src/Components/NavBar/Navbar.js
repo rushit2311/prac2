@@ -9,7 +9,7 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import DrawerComp from "../Drawer/Drawer";
+import DrawerComp from "./Drawer";
 const Navbar = () => {
   const [value, setValue] = useState();
   const theme = useTheme();
